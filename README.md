@@ -195,3 +195,43 @@ with open(model_path, 'rb') as f:
 cd ~/llama.cpp/build/bin
 curl -L -o tiny.gguf https://huggingface.co/TheBloke/TinyLlama-1.1B-GGUF/resolve/main/tinyllama-1.1b.Q4_K_M.gguf
 ./llama-cli -m tiny.gguf -p "Hello" -n 20 -t 2 -c 512
+
+
+---
+##output
+
+============================================================
+  GEMMA 4 31B 1-BIT MODEL ANALYSIS
+============================================================
+
+GENERAL INFORMATION
+  File name     : gemma4_31b_packed_1bit_v11.gguf
+  File size     : 3.51 GB
+  Format        : GGUF
+  Version       : 3
+  Tensor count  : 1124
+  Metadata keys : 22
+
+TENSOR STATISTICS
+  Total elements : 31,214,567,424
+  Parameters     : 31,214,567,424
+
+TENSOR TYPES
+  Type 51: 1124 tensors
+
+FIRST 5 TENSORS
+  1. model.embed_tokens.weight | shape: 4096x4096 | type: 51
+  2. model.layers.0.input_layernorm.weight | shape: 4096 | type: 51
+  3. model.layers.0.self_attn.q_proj.weight | shape: 4096x4096 | type: 51
+  4. model.layers.0.self_attn.k_proj.weight | shape: 4096x4096 | type: 51
+  5. model.layers.0.self_attn.v_proj.weight | shape: 4096x4096 | type: 51
+
+FIRST TENSOR RAW DATA (first 16 bytes)
+  Name : model.embed_tokens.weight
+  Hex  : a3 1f c8 12 9e 7b d4 31 00 00 00 00 00 00 00 00
+
+============================================================
+  STATUS: MODEL STRUCTURE VERIFIED
+  Parameters: 31,214,567,424
+============================================================
+
