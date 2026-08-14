@@ -247,7 +247,7 @@ FIRST TENSOR RAW DATA (first 16 bytes)
 
 
 
-##Final words 
+Final words 
 
 I make this project with my friend.Now we have problems because R2 score not high in real generation(only in quantisation) and because model don't running correct on android or iphone.
 
