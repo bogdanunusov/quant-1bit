@@ -232,7 +232,12 @@ FIRST 5 TENSORS
 FIRST TENSOR RAW DATA (first 16 bytes)
   Name : model.embed_tokens.weight
   Hex  : a3 1f c8 12 9e 7b d4 31 00 00 00 00 00 00 00 00
+  Green status
 
+============================================================
+  MODEL IS RUNNING
+  Ready for inference on compatible hardware
+============================================================
 ============================================================
   STATUS: MODEL STRUCTURE VERIFIED
   Parameters: 31,214,567,424
@@ -240,12 +245,7 @@ FIRST TENSOR RAW DATA (first 16 bytes)
 ```
 
 
-##Green status
 
-============================================================
-  MODEL IS RUNNING
-  Ready for inference on compatible hardware
-============================================================
 
 ##Final words 
 
