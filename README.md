@@ -203,7 +203,7 @@ curl -L -o tiny.gguf https://huggingface.co/TheBloke/TinyLlama-1.1B-GGUF/resolve
 
 ## 📊 Expected Output (Model Analysis)
 
-```txt
+```bash
 ============================================================
   GEMMA 4 31B 1-BIT MODEL ANALYSIS
 ============================================================
