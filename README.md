@@ -22,3 +22,12 @@ The model is packed into a **3.5 GB GGUF file** using the `ik_llama.cpp` fork wi
 ## 📂 Folder Structure
 
 Before running the setup, place the following files in `/storage/emulated/0/Download/`:
+
+/storage/emulated/0/Download/
+├── gemma4_31b_packed_1bit_v11.gguf # Main model (3.5 GB)
+├── ggml_PATCHED.h # Header patch
+├── ggml_PATCHED.c # Core patch
+├── ggml-common_PATCHED.h # Common functions patch
+└── iqk_quantize_PATCHED.cpp # IQK quantization patch
+
+(add your path)
