@@ -191,14 +191,13 @@ with open(model_path, 'rb') as f:
     print('=' * 60)
 "
 
-# 8. Optional: Run TinyLlama as a working example
-cd ~/llama.cpp/build/bin
-curl -L -o tiny.gguf https://huggingface.co/TheBloke/TinyLlama-1.1B-GGUF/resolve/main/tinyllama-1.1b.Q4_K_M.gguf
-./llama-cli -m tiny.gguf -p "Hello" -n 20 -t 2 -c 512
+
 
 
 
 ```
+
+
 
 
 ## 📊 Expected Output (Model Analysis)
@@ -241,3 +240,30 @@ FIRST TENSOR RAW DATA (first 16 bytes)
 ```
 
 
+##Green status
+
+============================================================
+  MODEL IS RUNNING
+  Ready for inference on compatible hardware
+============================================================
+
+##Final words 
+
+I make this project with my friend.Now we have problems because R2 score not high in real generation(only in quantisation) and because model don't running correct on android or iphone.
+
+📬 Let’s Collaborate
+If you are interested in supporting this project — financially, technically, or through research collaboration — please reach out.
+
+We are open to:
+
+🧪 Joint research
+
+🛠️ Engineering sponsorships
+
+📦 Hardware donations (devices for testing)
+
+🧠 Knowledge sharing (mentorship, code reviews)
+
+📧 Contact
+bogunusov@gmail.com
+or X: @liberal17th
