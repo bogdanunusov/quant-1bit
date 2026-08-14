@@ -197,9 +197,13 @@ curl -L -o tiny.gguf https://huggingface.co/TheBloke/TinyLlama-1.1B-GGUF/resolve
 ./llama-cli -m tiny.gguf -p "Hello" -n 20 -t 2 -c 512
 
 
+
+```
+
+
 ## 📊 Expected Output (Model Analysis)
 
-```plaintext
+```txt
 ============================================================
   GEMMA 4 31B 1-BIT MODEL ANALYSIS
 ============================================================
@@ -235,4 +239,5 @@ FIRST TENSOR RAW DATA (first 16 bytes)
   Parameters: 31,214,567,424
 ============================================================
 ```
+
 
